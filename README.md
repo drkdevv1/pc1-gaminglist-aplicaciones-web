@@ -1,4 +1,4 @@
-# PC1-GamingLis
+# PC1-GamingList
 
 Mi nombre es Jose Calderón Huaman, y he creado este sitio web para la PC1 del curso de Aplicaciones Web.
 
