@@ -1,6 +1,6 @@
 # PC1-GamingList
 
-Mi nombre es Jose Calderón Huaman, y he creado este sitio web para la PC1 del curso de Aplicaciones Web.
+Mi nombre es Jose Calderón, y he creado este sitio web para la PC1 del curso de Aplicaciones Web.
 
 El sitio muestra datos de los videojuegos obtenidos desde el siguiente endpoint:
 [https://www.freetogame.com/api/games](https://www.freetogame.com/api/games)
