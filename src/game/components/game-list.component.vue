@@ -1,18 +1,25 @@
 <script>
 import GameCard from './game-card.component.vue';
+import GameSkeletonCard from "@/game/components/game-skeleton.component.vue";
 
 export default {
   name:"GameCardList",
-  components:{GameCard},
+  components:{GameSkeletonCard, GameCard},
   props:{
     games: Object,
+    isLoading: Boolean,
   }
 }
 </script>
 
 <template>
   <div class="games-list">
-    <game-card v-for="game in games" :game="game" :key="game.id"></game-card>
+    <template v-if="isLoading">
+      <game-skeleton-card v-for="n in 10" :key="n"></game-skeleton-card>
+    </template>
+    <template v-else>
+      <game-card v-for="game in games" :game="game" :key="game.id"></game-card>
+    </template>
   </div>
 </template>
 
