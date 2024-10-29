@@ -40,6 +40,12 @@ export default {
   margin-bottom: 30px;
   border-radius: 20px;
   text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px) scale(1);
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.4);
 }
 .card img{
   max-width: 240px;
